@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name             = "SobotKitXueqiu"
-s.version          = "1.0.2"
+s.version          = "1.0.3"
 s.summary          = "It is marquee view used on iOS, which implement by Objective-C"
 s.description      = <<-DESC
 智齿客服 SDK 为企业提供了一整套完善的智能客服解决方案。智齿客服 SDK 既包含客服业务逻辑，也提供交互界面；企业只需简单两步，便可在 APP 中集成智齿客服，让 APP 拥有 7 x 24 小时客服服务能力。
