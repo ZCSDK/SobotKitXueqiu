@@ -346,6 +346,7 @@
  *
  **/
 @property (nonatomic,assign) int quickEntryFlag;
+@property (nonatomic,assign) int lableLinkFlag;
 
 
 /**
