@@ -31,7 +31,9 @@
 		<key>ZCBgSystemWhiteLightGrayColor</key>
 		<string>FFFFFF</string>
 		<key>ZCBgLeftChatColor</key>
-		<string>F2F5F7</string>
+		<string>FFFFFF</string>
+		<key>ZCBgRightChatColor</key>
+		<string>A9CBFF</string>
 		<key>ZCBgNoticeColor</key>
 		<string>FDF4D1</string>
 		<key>ZCBgLineColor</key>
@@ -52,6 +54,40 @@
 		<string>FFFFFF</string>
 		<key>ZCRatingBGColor</key>
 		<string>F0AC0E</string>
+		<key>ZCRightTextColor</key>
+		<string>101423</string>
+		<key>ZCLeftTextColor</key>
+		<string>101423</string>
+		<key>ZCXqBgWhiteLightDarkColor</key>
+		<string>F7F8FA</string>
+		<key>ZCXQBgSystemWhiteColor</key>
+		<string>FFFFFF</string>
+		<key>ZCXQBgLeftChatColor</key>
+		<string>F2F5F7</string>
+		<key>ZCXQRobotTextColor</key>
+		<string>101423</string>
+		<key>ZCXQRobotTextSelectColor</key>
+		<string>287DFF</string>
+		<key>ZCXQRobotBtnBgColor</key>
+		<string>F4F5F9</string>
+		<key>ZCXQRobotBtnTextColor</key>
+		<string>797C86</string>
+		<key>ZCXQLeftTipTextColor</key>
+		<string>797C86</string>
+		<key>ZCXQBgRightChatColor</key>
+		<string>A9CBFF
+A9CBFF
+A9CBFF</string>
+		<key>ZCXQCloseTextColor</key>
+		<string>8AB8FE
+8AB8FE</string>
+		<key>ZCXQCloseBgColor</key>
+		<string>F4F5F9
+</string>
+		<key>ZCXQCreateTextColor</key>
+		<string>FFFFFF</string>
+		<key>ZCXQCreateBgColor</key>
+		<string>A9CBFF</string>
 	</dict>
 	<key>dark</key>
 	<dict>
@@ -82,7 +118,9 @@
 		<key>ZCBgSystemWhiteLightGrayColor</key>
 		<string>262628</string>
 		<key>ZCBgLeftChatColor</key>
-		<string>262628</string>
+		<string>13161E</string>
+		<key>ZCBgRightChatColor</key>
+		<string>1F4583</string>
 		<key>ZCBgNoticeColor</key>
 		<string>FDF4D1</string>
 		<key>ZCBgLineColor</key>
@@ -103,6 +141,38 @@
 		<string>353538</string>
 		<key>ZCRatingBGColor</key>
 		<string>F0AC0E</string>
+		<key>ZCRightTextColor</key>
+		<string>CCCCCC</string>
+		<key>ZCLeftTextColor</key>
+		<string>CCCCCC</string>
+		<key>ZCXqBgWhiteLightDarkColor</key>
+		<string>13161E</string>
+		<key>ZCXQBgSystemWhiteColor</key>
+		<string>13161E</string>
+		<key>ZCXQBgLeftChatColor</key>
+		<string>262628</string>
+		<key>ZCXQRobotTextColor</key>
+		<string>CCCCCC</string>
+		<key>ZCXQRobotTextSelectColor</key>
+		<string>287DFF
+287DFF
+</string>
+		<key>ZCXQRobotBtnBgColor</key>
+		<string>212633</string>
+		<key>ZCXQRobotBtnTextColor</key>
+		<string>CCCCCC</string>
+		<key>ZCXQLeftTipTextColor</key>
+		<string>CCCCCC</string>
+		<key>ZCXQBgRightChatColor</key>
+		<string>1F4583</string>
+		<key>ZCXQCloseTextColor</key>
+		<string>295CAF</string>
+		<key>ZCXQCloseBgColor</key>
+		<string>212633</string>
+		<key>ZCXQCreateTextColor</key>
+		<string>EEEEEE</string>
+		<key>ZCXQCreateBgColor</key>
+		<string>1F4583</string>
 	</dict>
 </dict>
 </plist>

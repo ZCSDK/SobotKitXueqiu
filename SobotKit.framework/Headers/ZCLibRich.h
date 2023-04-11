@@ -28,6 +28,7 @@ typedef NS_ENUM(NSInteger,ZCMessageType) {
 //    ZCMessagetypeCard   = 101,//商品卡片消息
     ZCMessageTypeCard = 24,//商品卡片消息
     ZCMessageTypeOrder= 25,//订单卡片消息
+    ZCMessageTypeIdentity = 26,// 身份核验
     ZCMessageTypeRobotCommonProblemGuide = 102, // 机器人 常见问题引导
     
     ZCMessagetypeStartSound = -4,//正在录音
@@ -48,6 +49,7 @@ typedef NS_ENUM(NSInteger,ZCMessageRichType) {
     ZCMessageRichTypeGoods = 3, // 商品卡片
     ZCMessageRichTypeOrder  = 4, // 订单
     ZCMessageRichTypeBrowseTrack  = 114, // 浏览轨迹
+    ZCMessageRcihTypeIdentity = 7,// 身份核验
 };
 /**
  *  配置富媒体
@@ -226,7 +228,17 @@ typedef NS_ENUM(NSInteger,ZCMessageRichType) {
 @property (nonatomic,assign) BOOL isHotGuide;
 
 
+////////////  雪球身份核验使用/////////////////////
+@property(nonatomic,copy)NSString *identityDesc;// 描述
+@property(nonatomic,assign)int identityState;// 状态
+@property(nonatomic,copy)NSString *xqcontents;// 描述内容
+@property(nonatomic,copy)NSString *xqtitle;// 标题
+@property(nonatomic,assign)int xqstate;// 0.待提交 2通过 3未通过 4已失效
+@property(nonatomic,copy)NSString *xqurl;//xq 验证页面使用
+@property(nonatomic,copy)NSString *xqformID;// 表单ID
+@property(nonatomic,copy)NSString *xqmsg_id;// 消息ID
 
+///////////////  雪球身份核验使用//////////////////
 
 /**
  *  初始化

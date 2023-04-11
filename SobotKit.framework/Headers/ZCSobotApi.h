@@ -87,6 +87,9 @@ messageLinkClick:(BOOL (^)(NSString *link)) messagelinkBlock;
 +(void)setFunctionClickListener:(void (^)(id currentVC,ZCPageCloseType type))backBlock;
 
 
+/// 雪球身份核验卡片 验证事件
+/// @param identityBlock 验证按钮的点击的回调 object 是字典 里面比表单ID 和 URL 链接  、state 是当前订单状态
++(void)setIdentityCardClick:(void(^)(id object,int state))identityBlock;
 
 // 打开客户中心页面
 + (void)openZCServiceCenter:(ZCKitInfo *) info

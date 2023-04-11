@@ -77,6 +77,8 @@ typedef NS_ENUM(NSInteger,ZCTipMessageType) {
     ZCTipMessageChatWarning                       = 29,
     /**机器人点踩 触发转人工*/
     ZCTipMessageUnresolvedProblemTurn             = 30,
+        // 雪球 身份核验
+    ZCTipMessageTypeIdentityCard                  = 31,
     /****** 发送留言转离线消息后，结束会话 *****/
     ZCTipMessageChatCloseByLeaveMsg               = 99,
     
@@ -219,6 +221,8 @@ typedef NS_ENUM(NSInteger,ZCTipMessageType) {
  *  是否是历史消息
  */
 @property (nonatomic , assign) BOOL isHistory;
+
+
 
 /**
  *  ZCLibRic创建的对象

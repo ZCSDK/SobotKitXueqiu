@@ -187,7 +187,7 @@ typedef void(^initResultBlock)(ZCInitStatus code,NSMutableArray *arr,NSString *r
 @property(nonatomic,copy) void (^PageLoadBlock)(id object,ZCPageBlockType type);
 
 @property(nonatomic,copy) void (^ZCViewControllerCloseBlock)(id object,ZCPageCloseType type); // 1129
-
+@property(nonatomic,copy) void (^ZCIdentityCardClickBlock)(id object,int type);
 @property(nonatomic,copy) void (^ZCClosePageBlock)(ZCPagesType type);
 
 @property(nonatomic,strong) ZCKitInfo     *kitInfo;
