@@ -393,7 +393,7 @@ typedef NS_ENUM(NSInteger,ZCTipMessageType) {
  */
 -(id) initWithMyDict:(NSDictionary *)dict IsHistory:(BOOL)isHistory;
 
-
+-(id) initWithXQDict:(NSDictionary *)dict IsHistory:(BOOL)isHistory;
 
 -(NSString *)getTipMsg:(ZCTipMessageType)action content:(NSString*)message isOpenLeave:(NSUInteger) isOpen;
 
