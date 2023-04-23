@@ -237,7 +237,8 @@ typedef NS_ENUM(NSInteger,ZCMessageRichType) {
 @property(nonatomic,copy)NSString *xqurl;//xq 验证页面使用
 @property(nonatomic,copy)NSString *xqformID;// 表单ID
 @property(nonatomic,copy)NSString *xqmsg_id;// 消息ID
-
+@property(nonatomic,assign) int verify_fail_count;// 验证失败的次数
+@property(nonatomic,assign) int xqMsgStatus;// 记录 5分钟超时 未通过 并且没有达到3次
 ///////////////  雪球身份核验使用//////////////////
 
 /**

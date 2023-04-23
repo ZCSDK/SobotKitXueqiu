@@ -94,12 +94,18 @@ A9CBFF</string>
 		<string>EAF2FF</string>
 		<key>ZCXQSState3BgColor</key>
 		<string>FDEDED</string>
+		<key>ZCXQSState4BgColor</key>
+		<string>F7F8FA</string>
 		<key>ZCXQSState1TextColor</key>
 		<string>FFA100</string>
 		<key>ZCXQSState2TextColor</key>
 		<string>287DFF</string>
 		<key>ZCXQSState3TextColor</key>
 		<string>F04848</string>
+		<key>ZCXQSState4TextColor</key>
+		<string>AEB0BB</string>
+		<key>ZCXQChangeLineBgColor</key>
+		<string>E5E8EE</string>
 	</dict>
 	<key>dark</key>
 	<dict>
@@ -191,12 +197,20 @@ A9CBFF</string>
 		<string>0C1A31</string>
 		<key>ZCXQSState3BgColor</key>
 		<string>2A0B0B</string>
+		<key>ZCXQSState4BgColor</key>
+		<string>191D27</string>
 		<key>ZCXQSState1TextColor</key>
 		<string>E89609</string>
 		<key>ZCXQSState2TextColor</key>
 		<string>287DFF</string>
 		<key>ZCXQSState3TextColor</key>
 		<string>D13636</string>
+		<key>ZCXQSState4TextColor</key>
+		<string>5A5C61
+AEB0BB
+</string>
+		<key>ZCXQChangeLineBgColor</key>
+		<string>21242B</string>
 	</dict>
 </dict>
 </plist>
