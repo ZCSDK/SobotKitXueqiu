@@ -263,6 +263,7 @@
  */
 -(void)getHistoryMessages:(NSString *) cid
                   withUid:(NSString *) uid
+                   config:(ZCLibConfig *)_config
                     start:(void(^)()) startBlock
                   success:(void(^)(NSMutableArray *messages,ZCNetWorkCode sendCode)) successBlock
                    failed:(void(^)(NSString *errorMessage,ZCNetWorkCode errorCode)) failedBlock;
