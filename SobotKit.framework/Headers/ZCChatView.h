@@ -104,8 +104,10 @@ typedef NS_ENUM(NSInteger,ZCChatViewGoBackType) {
 // 隐藏聊天窗口，回收页面数据
 -(void)dismissZCChatView;
 
-// 返回聊天页面刷新状态
--(void)updateViewFrame;
+// 页面将要消失的时候的先影藏了 快捷菜单
+-(void)viewHideQuickView;
+
+-(void)viewShowQuickView;
 
 -(void)saveDataToLocal;
 
