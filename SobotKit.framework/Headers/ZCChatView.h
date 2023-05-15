@@ -111,6 +111,8 @@ typedef NS_ENUM(NSInteger,ZCChatViewGoBackType) {
 
 //-(void)viewShowQuickViewWith:(BOOL)isHidden;
 
+-(void)xqkeyboardscrollTableToBottom;
+
 -(void)saveDataToLocal;
 
 /**

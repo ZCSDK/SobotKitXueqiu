@@ -786,4 +786,6 @@
  */
 @property (nonatomic,assign) BOOL hideQRCode;
 
+// 调试RN的代码使用 仅测试使用
+@property (nonatomic,assign) int testCode;
 @end
