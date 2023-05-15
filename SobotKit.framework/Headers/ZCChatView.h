@@ -105,9 +105,11 @@ typedef NS_ENUM(NSInteger,ZCChatViewGoBackType) {
 -(void)dismissZCChatView;
 
 // 页面将要消失的时候的先影藏了 快捷菜单
--(void)viewHideQuickView;
+//-(void)viewHideQuickView;
 
--(void)viewShowQuickView;
+-(void)setFrameForListTable;
+
+//-(void)viewShowQuickViewWith:(BOOL)isHidden;
 
 -(void)saveDataToLocal;
 
