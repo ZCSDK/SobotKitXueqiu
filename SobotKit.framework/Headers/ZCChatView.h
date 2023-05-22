@@ -155,4 +155,6 @@ typedef NS_ENUM(NSInteger,ZCChatViewGoBackType) {
  */
 - (void)setIsCloseNo;
 
+// 影藏键盘
+-(void)hiddenKeyboard;
 @end
