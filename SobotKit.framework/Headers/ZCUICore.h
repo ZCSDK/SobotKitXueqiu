@@ -425,6 +425,8 @@ typedef void(^initResultBlock)(ZCInitStatus code,NSMutableArray *arr,NSString *r
 // 感谢您的评价
 -(void)thankFeedBack;
 
+// 机器人关闭结束会话 
+-(void)thankFeedBackCloseRobot;
 /**
  *
  *  清除用户计数
