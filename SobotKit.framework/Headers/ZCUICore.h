@@ -27,6 +27,7 @@ typedef NS_ENUM(NSInteger,ZCTurnType) {
     ZCTurnType_KeyWordSmart,                // 智能转人工，静默转
     ZCTurnType_CellGroupClick,              // 点击关键字cell 中技能组
     ZCTurnType_BtnClick,                    // 点击转人工按钮
+    ZCTurnType_CellBtnClick,                // 点击了机器人回复的消息下面的转人工按钮
     ZCTurnType_BtnClickUpOrDown,            // 点击转人工，踩活赞
     ZCTurnType_RepeatOrMood,                // 重复提问转人工 z或者 情绪负向转人工
     ZCTurnType_InitBeConnected,             // 初始化已经是人工
@@ -254,7 +255,11 @@ typedef void(^initResultBlock)(ZCInitStatus code,NSMutableArray *arr,NSString *r
 @property(nonatomic,strong) NSDictionary *satisfactionDict; // 评价选项
 @property(nonatomic,strong) NSString *inviteSatisfactionCheckLabels; // 邀请评价已选择的标签
 
-@property(nonatomic,assign) BOOL currtChatOver;// 当前是评价完人工结束会话的状态  
+@property(nonatomic,assign) BOOL currtChatOver;// 当前是评价完人工结束会话的状态
+
+@property(nonatomic,copy) NSString *learnld;// 待学习id
+//@property(nonatomic,assign)int learnldCount;//计数是否传给转人工接口
+
 +(ZCUICore *)getUICore;
 
 -(ZCLibConfig *) getLibConfig;
@@ -427,6 +432,9 @@ typedef void(^initResultBlock)(ZCInitStatus code,NSMutableArray *arr,NSString *r
 
 // 机器人关闭结束会话 
 -(void)thankFeedBackCloseRobot;
+
+// 点击返回 结束会话 并且触发评价完人工结束会话 不弹重建会话的键盘
+-(void)thankFeedBackCloseView;
 /**
  *
  *  清除用户计数

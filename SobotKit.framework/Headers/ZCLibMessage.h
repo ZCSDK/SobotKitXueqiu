@@ -122,6 +122,7 @@ typedef NS_ENUM(NSInteger,ZCTipMessageType) {
 @property (nonatomic , strong) NSString *msgId;
 @property (nonatomic , strong) NSString *revokeMsgId;
 
+@property (nonatomic,strong) NSString *learnId;// 待学习的id
 
 /**
  *  内容[未使用]

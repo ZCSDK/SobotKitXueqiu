@@ -143,6 +143,8 @@ typedef NS_ENUM(NSInteger,ZCChatViewGoBackType) {
  **/
 -(void)beginAniantions;
 
+
+-(void)xqUpdateNavHeight;
 /**
  *
  *  去评价
@@ -157,4 +159,7 @@ typedef NS_ENUM(NSInteger,ZCChatViewGoBackType) {
 
 // 影藏键盘
 -(void)hiddenKeyboard;
+
+// 获取当前是否是新会话键盘样式
+-(BOOL)getKeyBoardViewStatusNew;
 @end
