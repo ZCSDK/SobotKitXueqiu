@@ -168,6 +168,7 @@
             config:(ZCLibConfig *) _config
          robotFlag:(NSString *)robotflag
           duration:(NSString *)duration
+           learnId:(NSString *)learnId
              start:(void (^)(ZCLibMessage *))startBlock
            success:(void (^)(ZCLibMessage *, ZCMessageSendCode))successBlock
           progress:(void(^)(ZCLibMessage *message)) progressBlock
