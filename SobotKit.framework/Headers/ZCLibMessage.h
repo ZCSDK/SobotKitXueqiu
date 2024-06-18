@@ -420,4 +420,11 @@ typedef NS_ENUM(NSInteger,ZCTipMessageType) {
 
 -(NSString *)getLastMessage;
 - (NSString *)getHtmlAttrStringWithText:(NSString *)text;
+
+// 多轮引导语
+-(NSString *) getModelDisplayMsgStripeText;
+-(NSString *) getModelDisplayMsgStripeText:(BOOL) createAttr;
+
+-(NSString *)getSysTipsText;
+
 @end
